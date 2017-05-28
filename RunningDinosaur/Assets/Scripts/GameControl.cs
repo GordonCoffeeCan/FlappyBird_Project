@@ -7,15 +7,10 @@ using UnityEngine.UI;
 public class GameControl : MonoBehaviour {
 
     public Text scoreText;
-
     public float scrollSpeed = -1.5f;
-
     public static GameControl instance;
-
     public GameObject gameOverText;
-
     public bool gameOver = false;
-
     private int score = 0;
 
     private void Awake() {
