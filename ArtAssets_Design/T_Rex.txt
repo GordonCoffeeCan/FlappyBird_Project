@@ -1,0 +1,20 @@
+{"frames": {
+
+"T_Rex.png":
+{
+	"frame": {"x":2,"y":2,"w":246,"h":263},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":246,"h":263},
+	"sourceSize": {"w":246,"h":263}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "T_Rex.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:88ab96fdd558484c642691e79fd55cd3:1/1$"
+}
+}
