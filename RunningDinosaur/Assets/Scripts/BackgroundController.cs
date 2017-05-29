@@ -11,7 +11,7 @@ public class BackgroundController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        groundCollider.GetComponent<Rigidbody2D>().velocity = GameManager.instance.scrollSpeed * Vector3.left;
+        
     }
 	
 	// Update is called once per frame
@@ -19,9 +19,11 @@ public class BackgroundController : MonoBehaviour {
 		if(this.transform.position.x < -groundCollider.size.x) {
             ResetBackgroundPosition();
         }
+
+        this.transform.Translate(GameManager.instance.scrollSpeed * Vector3.left * Time.deltaTime);
 	}
 
     private void ResetBackgroundPosition() {
-        this.transform.position = new Vector3(groundCollider.size.x, 0, 10);
+        this.transform.position += new Vector3(groundCollider.size.x * 2, 0, 10);
     }
 }
