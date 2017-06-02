@@ -1,32 +1,15 @@
 fileFormatVersion: 2
-guid: 3b4d379f7a7d8224d8d20df22ccac0f7
-timeCreated: 1496263965
+guid: 41f8039ae88e33d4598d4e4faf1deadb
+timeCreated: 1496357620
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: T_Rex_Claw_Shape
-    100004: T_Rex_Eye_Shape
-    100006: T_Rex_Shape
-    100008: T_Rex_Tooth_Shape
     400000: //RootNode
-    400002: T_Rex_Claw_Shape
-    400004: T_Rex_Eye_Shape
-    400006: T_Rex_Shape
-    400008: T_Rex_Tooth_Shape
-    2300000: T_Rex_Claw_Shape
-    2300002: T_Rex_Eye_Shape
-    2300004: T_Rex_Shape
-    2300006: T_Rex_Tooth_Shape
-    3300000: T_Rex_Claw_Shape
-    3300002: T_Rex_Eye_Shape
-    3300004: T_Rex_Shape
-    3300006: T_Rex_Tooth_Shape
-    4300000: T_Rex_Eye_Shape
-    4300002: T_Rex_Tooth_Shape
-    4300004: T_Rex_Claw_Shape
-    4300006: T_Rex_Shape
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: T_Rex_Mesh
   materials:
     importMaterials: 1
     materialName: 0
@@ -72,7 +55,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
