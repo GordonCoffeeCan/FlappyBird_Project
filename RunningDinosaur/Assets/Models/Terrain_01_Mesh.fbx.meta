@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 6038196cb07a9014badcca3d0fa670e6
-timeCreated: 1498681375
+guid: 47d5033dbee8b7d4fa1cb0fec42d5859
+timeCreated: 1498790019
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Terrain_01_Mesh_02
+    4300000: Terrain_01_Mesh
   materials:
     importMaterials: 1
     materialName: 0
