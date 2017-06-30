@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class DinosaurController : MonoBehaviour {
 
-    private Rigidbody2D rdBody;
-    private float upForce = 370;
+    private Rigidbody rdBody;
+    private float upForce = 5.5f;
 
     private bool jump = false;
     private bool isGround = false;
 
 	// Use this for initialization
 	void Start () {
-        rdBody = this.GetComponent<Rigidbody2D>();
+        rdBody = this.GetComponent<Rigidbody>();
     }
 	
 	// Update is called once per frame
@@ -21,7 +21,7 @@ public class DinosaurController : MonoBehaviour {
 
         if (jump && isGround) {
             rdBody.velocity = Vector2.zero;
-            rdBody.AddForce(upForce * Vector2.up * Time.deltaTime, ForceMode2D.Impulse);
+            rdBody.AddForce(upForce * Vector2.up, ForceMode.Impulse);
         }
 
         if (isGround == false) {
@@ -29,7 +29,7 @@ public class DinosaurController : MonoBehaviour {
         }
     }
 
-    private void OnCollisionStay2D(Collision2D _col) {
+    private void OnCollisionStay(Collision _col) {
         if(_col.gameObject.tag == "Ground") {
             isGround = true;
         }
@@ -37,7 +37,7 @@ public class DinosaurController : MonoBehaviour {
         rdBody.velocity = new Vector2(0, rdBody.velocity.y);
     }
 
-    private void OnCollisionExit2D(Collision2D _col) {
+    private void OnCollisionExit(Collision _col) {
         isGround = false;
     }
 }
