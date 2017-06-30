@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: fe8a4dfcf8acd9d46a43b5f64f23f6c4
-timeCreated: 1498689111
+guid: acc7b6a6e9bc4a244b7ac42cb4ea0722
+timeCreated: 1498851158
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Grass_02_Mesh
+    4300000: Tree01
   materials:
     importMaterials: 1
     materialName: 0
@@ -55,7 +55,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
