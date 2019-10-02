@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Floor : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    public Transform[] floorObjects;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
