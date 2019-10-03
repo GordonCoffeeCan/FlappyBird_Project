@@ -4,9 +4,16 @@ using UnityEngine;
 
 public class BoxController : MonoBehaviour {
 
+    public static BoxController instance;
+
+    public Renderer boxGraphics;
+
     private Animator animator;
 
+    public Texture[] textures;
+
     private void Awake() {
+        instance = this;
         animator = this.GetComponent<Animator>();
     }
 
@@ -21,4 +28,8 @@ public class BoxController : MonoBehaviour {
             animator.SetTrigger("Jump");
         }
 	}
+
+    public void ChangeColor(int _colorID) {
+        boxGraphics.material.mainTexture = textures[_colorID];
+    }
 }
